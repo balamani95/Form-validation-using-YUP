@@ -1,0 +1,42 @@
+body {
+  background: linear-gradient(to left, teal, rgb(96, 187, 78));
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.form {
+  width: 250px;
+  height: 300px;
+  background-color: azure;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 20px;
+  opacity: 0.5;
+  border-radius: 8%;
+}
+
+.submit {
+  background-color: lawngreen;
+  border-radius: 8px;
+}
+
+.input {
+  font-size: large;
+  size: 25px;
+  border-radius: 27%;
+  margin: auto;
+  margin-top: 10px;
+  height: 10px;
+  width: 30px;
+}
